@@ -5,7 +5,7 @@ function Benjani() {
         <div className="mx-auto text-center">
           <p className="font-bold text-3xl mt-3 underline text-blue-500">Employee no. 988104623</p>
         </div>
-        <img className="w-64 h-96 mx-auto mt-4" src="./merch.jpg" />
+        <img className="w-64 h-96 mx-auto mt-4" src="./merch.jpg" alt="benjani" />
         <div className="flex flex-col mx-auto w-64 mt-4">
           <div className="flex">
             <p className="font-bold">Name:</p>
