@@ -14,7 +14,7 @@ export default function Card({ name, age, profPic, job, location }) {
            <span onClick={() => setTest(!test)}>
                 <div className={cardClasses(test)}>
                     <div className='flex'>
-                        <img className='rounded-full h-10 w-10 mt-3 ml-4' src={profPic} />
+                        <img className='rounded-full h-10 w-10 mt-3 ml-4' src={profPic} alt='prog' />
                         <p className='mt-4 ml-3 text-bold text-xl'>{name}</p>
                     </div>
                     <div className='flex mt-4'>

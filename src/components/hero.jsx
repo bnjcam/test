@@ -7,7 +7,7 @@ export default function Hero() {
                 <TopNav />
             </div>
             <div className='m-auto mt-24'>
-                <img className='w-[500px]' src='./tind.png' />
+                <img className='w-[500px]' src='./tind.png' alt='tind' />
             </div>
             <h2 className='mx-auto'>Spinder LTD INC LLC LTD</h2>
         </div>
