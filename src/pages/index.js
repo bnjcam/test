@@ -1,8 +1,7 @@
 import AboutSec from '../components/aboutSec'
 import BizSec from '../components/bizSec'
 import TestSec from '../components/testSec'
-
-
+import Hero from '../components/hero';
 
 function Index() {
     return (
