@@ -1,15 +1,20 @@
 import './App.css';
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route,
-// } from "react-router-dom";
-// import Benjani from './pages/benjani'
-// import Index from './pages';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Benjani from './pages/benjani'
+import Index from './pages';
 
 function App() {
   return (
-   <div>Hi</div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Index />} />
+        <Route exact path="/benjani" element={<Benjani />} />
+      </Routes>
+    </Router>
   );
 }
 
