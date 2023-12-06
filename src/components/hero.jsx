@@ -2,7 +2,7 @@ import TopNav from './topNav';
 
 export default function Hero() {
     return (
-        <div className='flex flex-col mx-auto mb-32'>
+        <div className='flex flex-col mx-auto mb-32' id='home'>
             <div className='mx-auto'>
                 <TopNav />
             </div>
