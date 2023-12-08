@@ -10,7 +10,7 @@ function Index() {
             <div className='mt-32'>
                 <AboutSec />
             </div>
-            <div className='mt-[1300px]'>
+            <div className='mt-6 md:mt-[1300px]'>
                 <BizSec />
             </div>
             <div className='mt-16'>
