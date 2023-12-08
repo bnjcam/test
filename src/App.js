@@ -5,7 +5,7 @@ function App() {
   return (
    <div>
     <Index />
-   </div>
+   </div
   );
 }
 
