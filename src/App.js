@@ -10,12 +10,9 @@ import SignIn from './pages/signin';
 
 function App() {
   return (
-    <HashRouter basename='/'>
-      <Routes>
-        <Route exact path="/" element={<SignIn />} />
-        <Route exact path="/benjani" element={<Benjani />} />
-      </Routes>
-    </HashRouter>
+    <div>
+      <Benjani />
+    </div>
   );
 }
 
