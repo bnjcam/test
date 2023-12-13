@@ -1,4 +1,4 @@
-import { HashRouter } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import './App.css';
 import Index from './pages';
 import Benjani from './pages/benjani'
